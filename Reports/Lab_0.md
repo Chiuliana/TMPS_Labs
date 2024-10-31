@@ -1,4 +1,4 @@
-# Laboratory Work No.1 Implementing 2 SOLID Principles 
+# Laboratory Work No.0 Implementing 2 SOLID Principles 
 
 ### Course: TMPS
 ### Author: Chichioi Iuliana, FAF-221
