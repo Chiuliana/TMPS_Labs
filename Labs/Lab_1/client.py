@@ -6,7 +6,7 @@ def main():
     # Access the singleton instance of the Library
     library = Library()
 
-    # Use the Factory Method to create books and add them to the library
+    # Use the Factory Method to create books with different genres
     book1 = BookFactory.create_book("Fiction", "1984", "George Orwell", "123456789")
     library.add_book(book1)
 
