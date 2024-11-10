@@ -1,6 +1,5 @@
 class User:
     # Represents a library user with a name and user ID
-
     def __init__(self, name, user_id):
         self.name = name
         self.user_id = user_id

@@ -1,6 +1,5 @@
 class Library:
-     # Rrepresents the library managing books and users
-
+    # Represents the library managing books and users
     _instance = None
 
     def __new__(cls):

@@ -1,6 +1,5 @@
 class Book:
     # Base class representing a book.
-
     def __init__(self, title, author, isbn):
         self.title = title
         self.author = author
@@ -12,7 +11,6 @@ class Book:
 
 class FictionBook(Book):
     # Represents a Fiction book.
-
     def __init__(self, title, author, isbn):
         super().__init__(title, author, isbn)
         self.genre = "Fiction"
@@ -23,7 +21,6 @@ class FictionBook(Book):
 
 class NonFictionBook(Book):
     # Represents a Non-Fiction book.
-
     def __init__(self, title, author, isbn):
         super().__init__(title, author, isbn)
         self.genre = "Non-Fiction"

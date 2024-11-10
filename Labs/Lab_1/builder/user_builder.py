@@ -1,8 +1,7 @@
 from Labs.Lab_1.domain.user import User
 
 class UserBuilder:
-    # Builder class for creating User instances with optional details
-
+    # Builder class for creating User instances with optional details.
     def __init__(self):
         self.name = None
         self.user_id = None

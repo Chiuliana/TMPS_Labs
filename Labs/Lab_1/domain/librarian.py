@@ -4,7 +4,6 @@ from Labs.Lab_1.domain.user import User
 
 class Librarian:
     # Class for managing library actions by adding books and registering users.
-
     def __init__(self):
         self.library = Library()
 
