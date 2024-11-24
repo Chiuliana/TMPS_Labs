@@ -1,14 +1,11 @@
 from Labs.Lab_1.domain.book import FictionBook, NonFictionBook
 
 class BookFactory:
-    # Factory class to create Book instances based on genre.
     @staticmethod
-    def create_book(genre, title, author, isbn):
+    def create_book(genre, title, author, isbn, publish_year):
         if genre.lower() == "fiction":
-            print(f"Creating Fiction book: {title}")
-            return FictionBook(title, author, isbn)
+            return FictionBook(title, author, isbn, publish_year)
         elif genre.lower() == "non-fiction":
-            print(f"Creating Non-Fiction book: {title}")
-            return NonFictionBook(title, author, isbn)
+            return NonFictionBook(title, author, isbn, publish_year)
         else:
-            raise ValueError(f"Unknown genre '{genre}'. Please choose either 'Fiction' or 'Non-Fiction'.")
+            raise ValueError("Unknown book genre")
